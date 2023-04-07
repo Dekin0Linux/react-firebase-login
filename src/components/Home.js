@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
     <div className='flex justify-between '>
     <div className='sm:flex sm:gap-20'>
-      <a href="" className='text-blue-800 font-semibold'>Home</a>
+      <Link to="/" className='text-blue-800 font-semibold'>Home</Link>
       <a href="">About </a>
       <a href="">Top-up</a>
       <a href="">Help</a>
